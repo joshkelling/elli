@@ -63,6 +63,18 @@ export default function Games() {
               Choose your favorite K-pop photo and set it as your background!
             </p>
           </a>
+
+          <a
+            href="/games/jimmy-basketball"
+            className={`block p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow ${selectedPhoto ? 'bg-black/60 backdrop-blur-sm' : 'bg-white dark:bg-zinc-800'}`}
+          >
+            <h2 className={`text-2xl font-semibold mb-2 ${textColorClass}`}>
+              Jimmy's Basketball
+            </h2>
+            <p className={textColorSecondary}>
+              Help Jimmy shoot hoops! Score as many baskets as you can in 60 seconds!
+            </p>
+          </a>
         </div>
       </main>
     </div>
